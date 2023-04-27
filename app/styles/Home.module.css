@@ -1,0 +1,15 @@
+.containerBlock {
+    height: 100vh;
+    display: block;
+    
+   
+}
+
+.parallaxBg {
+    z-index: -1;
+    background: url("/static/img/tech_bg.jpg") no-repeat;
+    background-size: 100% 50%;
+    background-attachment: fixed;
+    height: 50vh;
+    
+}
