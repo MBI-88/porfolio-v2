@@ -1,8 +1,7 @@
 .containerBlock {
-    height: 100vh;
+   margin-bottom: 5%;
     display: block;
-    
-   
+    overflow: hidden;
 }
 
 .parallaxBg {
@@ -12,4 +11,8 @@
     background-attachment: fixed;
     height: 50vh;
     
+}
+
+.navbackground {
+    background-color: #ffffff;
 }
