@@ -27,13 +27,13 @@ const Navbar = () => {
                         />
                     </motion.div>
 
-                    <motion.h1
+                    <motion.h2
                         className="ps-1"
                         animate={{ color: ['#40e612', '#7a19db9e', '#d31a1ab0', '#2551e2fe'], animationTimingFunction: 'ease' }}
                         transition={{ duration: 10, repeat: Infinity, delay: 1 }}
                     >
                         MBI
-                    </motion.h1>
+                    </motion.h2>
                 </section>
 
                 <div className="flex md:order-2">
@@ -71,12 +71,12 @@ const Navbar = () => {
                             <motion.a href="/static/doc/CV-MBI-EN.pdf"
                                 download type="button"
                             >
-                                <motion.h1
+                                <motion.h2
                                     animate={{ color: ['#40e612', '#7a19db9e', '#d31a1ab0', '#2551e2fe'], animationTimingFunction: 'ease' }}
                                     transition={{ duration: 10, repeat: Infinity, delay: 1 }}
                                 >
                                     <HiOutlineDownload />
-                                </motion.h1>
+                                </motion.h2>
                             </motion.a>
                         </li>
                     </ul>

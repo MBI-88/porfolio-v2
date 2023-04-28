@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 const Background = () => {
     return (
         <section className='container lg:px-64 md:px-20 px-10'>
-            <motion.h1 className="pt-0 font-extrabold lg:ps-10 ps-0"
+            <motion.h2 className="pt-0 font-extrabold lg:ps-10 ps-0"
                 animate={{ color: ['#40e612', '#7a19db9e', '#d31a1ab0', '#2551e2fe'], animationTimingFunction: 'ease' }}
                 transition={{ duration: 10, repeat: Infinity, delay: 1 }}
             >
                 Background
-            </motion.h1>
-            <div className="pt-5 pb-5 lg:ps-20 ps-0 md:ps-16">
+            </motion.h2>
+            <article className="pt-5 pb-5 lg:ps-20 ps-0 md:ps-16">
                 <h3 className="font-medium text-justify">
                     I'm a Telecommunications and Electronics engineer.
                     I'm a fan of technologies and the internet. When I learned how to programme,
@@ -37,7 +37,7 @@ const Background = () => {
                     Currently, I have continuous improvement of my skills and I often look for information about new technologies.
                 </h3>
                 
-            </div>
+            </article>
         </section>
 
     )

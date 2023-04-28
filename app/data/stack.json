@@ -1,0 +1,51 @@
+[
+    {
+        "name": "languajes",
+        "key": 1,
+        "data": [
+            "Javascript",
+            "Python",
+            "Golang",
+            "Typescript",
+            "Html",
+            "Css",
+            "Sass"
+        ]
+    },
+    {
+        "name": "frameworks",
+        "key": 2,
+        "data": [
+            "Dajgo",
+            "FastApi",
+            "Flask",
+            "Boostrap",
+            "Tailwind",
+            "Fiber",
+            "Nextjs",
+            "Angular",
+            "Tensorflow"
+        ]
+    },
+    {
+        "name": "databases",
+        "key": 3,
+        "data": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB"
+        ]
+    },
+    {
+        "name": "tools",
+        "key": 4,
+        "data": [
+            "Linux",
+            "Docker",
+            "Windows",
+            "OWASP",
+            "VMware",
+            "AWS"
+        ]
+    }
+]
