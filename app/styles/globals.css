@@ -18,42 +18,41 @@
 
 :root {
   --background-white: #f6f6f6;
+  --text-color: #383434fc;
 
 }
 
 h1 {
-  font-family: var(--font-lora), sans-serif;
-  font-weight: 800;
-  font-size: 45px;
+  font-family: var(--font-rubik), sans-serif;
+
 }
 
 h2 {
   font-family: var(--font-lora), sans-serif;
-  font-weight: 400;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--text-color)
 
 }
 
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: var(--font-lora), sans-serif;
   font-style: italic;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--text-color)
 }
 
 p {
   font-family: var(--font-lora), sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 12px;
 }
 
 span {
   font-family: var(--font-lora);
-  font-weight: 500;
-  font-size: small;
+  font-weight: 300;
+  color: var(--text-color)
 }
 
 body {

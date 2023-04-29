@@ -1,14 +1,4 @@
-import { HiOutlineDownload } from 'react-icons/hi'
-import {
-    IoLogoJavascript, IoLogoPython, IoLogoHtml5,
-    IoLogoCss3, IoLogoSass, IoLogoAngular
-} from 'react-icons/io'
-import {
-    SiTypescript, SiTensorflow, SiMysql,
-    SiPostgresql, SiMongodb, SiDocker
-} from 'react-icons/si'
-import { SiDjango, SiFlask, SiFastapi, SiOwasp, SiGoland } from 'react-icons/si'
-import { FaBootstrap, FaLinux, FaWindows, FaReact } from 'react-icons/fa'
+import { GoCode } from 'react-icons/go'
 import { StackData } from '../interfaces/stack_interface'
 import { FC } from 'react'
 
@@ -18,7 +8,7 @@ interface Props {
 
 const Stack:FC<Props> = ({data}) => {
     return (
-        <section className='container lg:px-72 md:px-20 px-10 pt-9 pb-9'>
+        <section className='container lg:px-72 md:px-20 px-10 pt-9 pb-24'>
             <article className='flex flex-row flex-wrap'>
                 {
                     data ? (
@@ -28,8 +18,8 @@ const Stack:FC<Props> = ({data}) => {
                                 <ul key={item.key} className='item-center px-10 pt-2'>
                                     {
                                         item.data.map((lang,index )=>(
-                                            <li key={index}>
-                                                {lang}
+                                            <li key={index} className='flex flex-row items-center'>
+                                             <GoCode className='mr-2'/> { lang }
                                             </li>
                                         ))
                                     }

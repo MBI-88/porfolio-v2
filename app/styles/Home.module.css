@@ -14,5 +14,6 @@
 }
 
 .navbackground {
-    background-color: #ffffff;
+    background-color: #ffffffea;
+    backdrop-filter: blur(5%);
 }

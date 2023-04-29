@@ -1,4 +1,5 @@
 
+import { link } from 'fs'
 import Footer from './shared/footer'
 import Navbar from './shared/navbar'
 import './styles/globals.css'
@@ -15,8 +16,11 @@ const lora = Lora(
  )
 
 export const metadata = {
-  title: 'MBI-Site',
+  title: 'MBI-Home',
   description: 'Maikel Barrios Insua. Website developer',
+  icons: {
+    icon: '/static/ico/favicon.ico'
+  }
 }
 
 export default function RootLayout({
