@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion";
 
-const Background = () => {
+const Body = () => {
     return (
-        <section className='container lg:px-64 md:px-20 px-10'>
+        <section className='container lg:px-64 md:px-20 px-10 mb-16'>
             <motion.h2 className="pt-0 font-extrabold lg:ps-10 ps-0"
                 animate={{ color: ['#40e612', '#7a19db9e', '#d31a1ab0', '#2551e2fe'], animationTimingFunction: 'ease' }}
                 transition={{ duration: 10, repeat: Infinity, delay: 1 }}
@@ -42,4 +42,4 @@ const Background = () => {
 
     )
 }
-export default Background;
+export default Body;

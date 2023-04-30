@@ -58,8 +58,8 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/pages/work" className="block py-2 pl-3 pr-4  rounded bg-transparent md:p-0 ">
-                                <span className="self-center text-xl font-semibold whitespace-nowrap hover:text-blue-700">Works</span>
+                            <Link href="/pages/projects" className="block py-2 pl-3 pr-4  rounded bg-transparent md:p-0 ">
+                                <span className="self-center text-xl font-semibold whitespace-nowrap hover:text-blue-700">Projects</span>
                             </Link>
                         </li>
                         <li>

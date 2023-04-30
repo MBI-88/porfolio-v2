@@ -1,19 +1,9 @@
 
 import { link } from 'fs'
-import Footer from './shared/footer'
-import Navbar from './shared/navbar'
+import Footer from './common/footer'
+import Navbar from './common/navbar'
 import './styles/globals.css'
-import {Lora} from 'next/font/google'
-
-const lora = Lora(
-  { 
-    weight:["400","500","600","700"],
-    subsets:['latin'],
-    style:['normal','italic'],
-    variable: '--font-lora',
-  }
-
- )
+import { lora } from './fonts/lora'
 
 export const metadata = {
   title: 'MBI-Home',

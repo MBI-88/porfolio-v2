@@ -1,18 +1,18 @@
-import Background from './components/background'
-import Presentation from './components/presentation'
-import Stack from './components/stack'
+import Body from './components/body'
+import Header from './components/header'
+import TechStack from './components/tech_stack'
 import { FetchStackData } from './services/stack_services'
 import data from './data/stack.json'
 
 
 
-export default function Home() {
+export default async function Home() {
   const result = FetchStackData(data)
   return (
     <main className='min-h-screen'>
-     <Presentation />
-     <Background />
-     <Stack  data={result}/>
+     <Header />
+     <Body />
+     <TechStack  data={result}/>
     </main>
   )
 }

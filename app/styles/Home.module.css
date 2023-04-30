@@ -17,3 +17,11 @@
     background-color: #ffffffea;
     backdrop-filter: blur(5%);
 }
+
+.bgStack {
+    background: url('/static/img/VScode.jpg') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+   
+   
+}
