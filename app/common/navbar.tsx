@@ -21,7 +21,7 @@ const Navbar = () => {
                         }}
                         transition={{ duration: 3.5, repeat: Infinity }}
                     >
-                        <Image src="/static/img/Porfolio_MBI2.png"
+                        <Image src="/static/img/Porfolio_MBI2.webp"
                             className="mr-1 rounded-2xl"
                             width={"35"} height={"35"} alt="MBI image"
                         />

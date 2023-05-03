@@ -6,7 +6,7 @@
 
 .parallaxBg {
     z-index: -1;
-    background: url("/static/img/proj_bg.jpg") no-repeat;
+    background: url("/static/img/proj_bg.webp") no-repeat;
     background-size: 100% 50%;
     background-attachment: fixed;
     height: 50vh;

@@ -28,7 +28,7 @@ const Body = () => {
                     {
                         cert.map((item, index) => (
                             <li className="flex flex-row flex-wrap items-center space-x-12 mt-10" key={"li_" + index.toString()}>
-                                <h3 className=" text-blue-500 hover:text-red-500 w-28" onClick={ () => openModal(item.name,item.url)}>{item.name}</h3>
+                                <h3 className=" text-blue-500 hover:text-red-500 w-28 hover:cursor-pointer" onClick={ () => openModal(item.name,item.url)}>{item.name}</h3>
                                 <div className="w-28 h-16">
 
                                 </div>

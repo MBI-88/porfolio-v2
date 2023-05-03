@@ -1,22 +1,22 @@
 [
     {
         "name":"Cloud Computing",
-        "url":"/static/img/CloudComputing.jpg"
+        "url":"/static/img/CloudComputing.webp"
     },
     {
         "name":"Cybersecurity",
-        "url":"/static/img/CiberSeguridad.jpg"
+        "url":"/static/img/CiberSeguridad.webp"
     },
     {
         "name":"Golang Fiber",
-        "url":"/static/img/Golang_Course.jpg"
+        "url":"/static/img/Golang_Course.webp"
     },
     {
         "name":"Next JS",
-        "url":"/static/img/Nextjs_Course.jpg"
+        "url":"/static/img/Nextjs_Course.webp"
     },
     {
         "name": "Engineer",
-        "url": "/static/img/Ing.Tele.jpg"
+        "url": "/static/img/Ing.Tele.webp"
     }
 ]
