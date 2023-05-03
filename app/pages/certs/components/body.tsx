@@ -21,9 +21,9 @@ const Body = () => {
     }
 
     return (
-        <section className='container lg:px-64 md:px-20 px-10 mb-16'>
+        <section className='block px-10 mb-16 mt-10'>
             <Modal openModal={open} closeModal={closeModal} name={name} url={url}/>
-            <div className='pt-5 pb-5 lg:ps-20 ps-0 md:ps-16'>
+            <div className='pt-5 pb-5'>
                 <ul className="flex flex-col items-center">
                     {
                         cert.map((item, index) => (
