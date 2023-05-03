@@ -81,7 +81,7 @@ const ChartPie: FC<Props> = ({ name }) => {
     return (
         <div className='flex flex-col p-2 items-center'>
             {
-                state.loading ? <Loader /> : state.error ? <h4>Github api comsumed exceded</h4>:(
+                state.loading ? <Loader /> : state.error ? <h4>Github api usage exceeded</h4>:(
                     <Pie data={chart } options={chartOption}/>
                 )
             }
