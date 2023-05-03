@@ -3,7 +3,7 @@ const container = {
     show: {
         opacity: 1,
         transition: {
-            delayChildren: 6
+            delayChildren: 1
         }
     }
 }
@@ -13,7 +13,7 @@ const item1 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 3 }
+        transition: { duration: 1, delay: 3 }
     }
 }
 const item2 = {
@@ -22,7 +22,7 @@ const item2 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 4 }
+        transition: { duration: 1, delay: 4 }
     }
 }
 const item3 = {
@@ -31,7 +31,7 @@ const item3 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 5 }
+        transition: { duration: 1, delay: 5 }
     }
 }
 const item4 = {
@@ -40,7 +40,7 @@ const item4 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 6 }
+        transition: { duration: 1, delay: 6 }
     }
 }
 const item5 = {
@@ -49,7 +49,7 @@ const item5 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 7 }
+        transition: { duration: 1, delay: 7 }
     }
 }
 const item6 = {
@@ -58,7 +58,7 @@ const item6 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 8 }
+        transition: { duration: 1, delay: 8 }
     }
 }
 const item7 = {
@@ -67,7 +67,7 @@ const item7 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 9 }
+        transition: { duration: 1, delay: 9 }
     }
 }
 const item8 = {
@@ -76,7 +76,7 @@ const item8 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 10 }
+        transition: { duration: 1, delay: 10 }
     }
 }
 const item9 = {
@@ -85,7 +85,7 @@ const item9 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 11 }
+        transition: { duration: 1, delay: 11 }
     }
 }
 const item10 = {
@@ -94,7 +94,7 @@ const item10 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 12 }
+        transition: { duration: 1, delay: 12 }
     }
 }
 const item11 = {
@@ -103,7 +103,7 @@ const item11 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 13 }
+        transition: { duration: 1, delay: 13 }
     }
 }
 const item12 = {
@@ -112,7 +112,7 @@ const item12 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 14 }
+        transition: { duration: 1, delay: 14 }
     }
 }
 const item13 = {
@@ -121,7 +121,7 @@ const item13 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 15 }
+        transition: { duration: 1, delay: 15 }
     }
 }
 const item14 = {
@@ -130,7 +130,7 @@ const item14 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 16 }
+        transition: { duration: 1, delay: 16 }
     }
 }
 const item15 = {
@@ -139,7 +139,7 @@ const item15 = {
     },
     show: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 17 }
+        transition: { duration: 1, delay: 17 }
     }
 }
 

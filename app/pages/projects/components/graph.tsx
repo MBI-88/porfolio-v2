@@ -1,4 +1,5 @@
 "use client";
+
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from "react-chartjs-2";
 import { Language } from '@/app/interfaces/languge_interface';
@@ -11,7 +12,7 @@ import Loader from '@/app/common/loader';
 
 
 const apiRepo = process.env.NEXT_PUBLIC_GITHUB_API_REPO
-const username = process.env.NEXT_PUBLIC_USERNAME
+const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME
 
 interface Props {
     name: Language

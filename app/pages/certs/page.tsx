@@ -9,7 +9,7 @@ export const metadata = {
     }
 }
 
-export default function Certifications() {
+export default async function Certifications() {
 
     return(
         <main className="min-h-screen"> 
