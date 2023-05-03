@@ -42,7 +42,7 @@ const Table: FC<Props> = ({ data }) => {
                     </div>
                 )) :
                     <div className='shadow-lg rounded-xl p-2'>
-                        <h2>Github Api reached</h2>
+                        <h2>Github api usage exceeded</h2>
                     </div>
             }
         </div>
