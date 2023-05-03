@@ -1,22 +1,22 @@
 [
     {
-        "name":"Certification",
+        "name":"Cloud Computing",
         "url":"/static/img/CloudComputing.jpg"
     },
     {
-        "name":"Certification",
+        "name":"Cybersecurity",
         "url":"/static/img/CiberSeguridad.jpg"
     },
     {
-        "name":"Certification",
+        "name":"Golang Fiber",
         "url":"/static/img/Golang_Course.jpg"
     },
     {
-        "name":"Certification",
+        "name":"Next JS",
         "url":"/static/img/Nextjs_Course.jpg"
     },
     {
-        "name": "Certification",
+        "name": "Engineer",
         "url": "/static/img/Ing.Tele.jpg"
     }
 ]
