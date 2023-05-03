@@ -11,7 +11,7 @@ import Loader from '@/app/common/loader';
 
 
 const apiRepo = process.env.NEXT_PUBLIC_GITHUB_API_REPO
-const username = process.env.GITHUB_USERNAME
+const username = process.env.NEXT_PUBLIC_USERNAME
 
 interface Props {
     name: Language
