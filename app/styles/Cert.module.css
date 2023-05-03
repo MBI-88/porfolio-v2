@@ -1,0 +1,14 @@
+.containerBlock {
+    margin-bottom: 5%;
+    display: block;
+    overflow: hidden;
+}
+
+.parallaxBg {
+    z-index: -1;
+    background: url("/static/img/cert_bg.jpg") no-repeat;
+    background-size: 100% 50%;
+    background-attachment: fixed;
+    height: 50vh;
+
+}

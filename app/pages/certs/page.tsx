@@ -1,3 +1,5 @@
+import Body from "./components/body"
+import Header from "./components/header"
 
 export const metadata = {
     title: 'MBI-Certs',
@@ -8,7 +10,11 @@ export const metadata = {
 }
 
 export default function Certifications() {
+
     return(
-        <div> Certifications page..</div>
+        <main className="min-h-screen"> 
+            <Header />
+            <Body />
+        </main>
     )
 }

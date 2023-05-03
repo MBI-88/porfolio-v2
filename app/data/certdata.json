@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Certification",
+        "url":"/static/img/CloudComputing.jpg"
+    },
+    {
+        "name":"Certification",
+        "url":"/static/img/CiberSeguridad.jpg"
+    },
+    {
+        "name":"Certification",
+        "url":"/static/img/Golang_Course.jpg"
+    },
+    {
+        "name":"Certification",
+        "url":"/static/img/Nextjs_Course.jpg"
+    },
+    {
+        "name": "Certification",
+        "url": "/static/img/Ing.Tele.jpg"
+    }
+]

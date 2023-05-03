@@ -10,7 +10,6 @@ import { GetAPIrepo } from '@/app/services/graphchart_service';
 import Loader from '@/app/common/loader';
 
 
-
 const apiRepo = process.env.NEXT_PUBLIC_GITHUB_API_REPO
 const username = process.env.NEXT_PUBLIC_USERNAME
 
@@ -62,7 +61,7 @@ const ChartPie: FC<Props> = ({ name }) => {
     ChartJS.register(ArcElement, Tooltip, Legend);
     useEffect(() => {
         setState({ type: ActionType.Loading,loading:true,error:false })
-        const url = `${apiRepo}${username}/${name}/languge`
+        const url = `${apiRepo}${username}/${name}/languages`
         GetAPIrepo(url).then(respo => respo.json()).then(
             result => {
                 if (!result["message"]){
@@ -81,7 +80,7 @@ const ChartPie: FC<Props> = ({ name }) => {
     return (
         <div className='flex flex-col p-2 items-center'>
             {
-                state.loading ? <Loader /> : state.error ? <h4>Connection error to show Graph</h4>:(
+                state.loading ? <Loader /> : state.error ? <h4>Github api comsumed exceded</h4>:(
                     <Pie data={chart } options={chartOption}/>
                 )
             }

@@ -19,7 +19,7 @@ const OnlineApp = () => {
             <motion.ul className='flex flex-col flex-wrap items-center' variants={animation[0]} initial="hidden" animate="show">
                 {
                     app.map((item, index) => (
-                        <motion.li variants={animation[index + 1]} className='mt-5'>
+                        <motion.li variants={animation[index + 1]} className='mt-5' key={"li_"+index.toString()}>
                             <a href={item.url} >
                                 <h3 className=' text-blue-500 hover:text-red-500'>{item.name}</h3> 
                             </a>

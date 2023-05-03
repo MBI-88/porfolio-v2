@@ -16,12 +16,12 @@ const TechStack: FC<Props> = ({ data }) => {
                     {
                         data ? (
                             data.map((item, index) => (
-                                <div className='constainer items-start px-5' key={index}>
+                                <div className='constainer items-start px-5' key={"div_"+index.toString()}>
                                     <h2 className='lg:font-bold font-medium px-10 text-yellow-400' key={index}>{item.name.toUpperCase()}</h2>
-                                    <ul key={item.key} className='item-center px-10 pt-2'>
+                                    <ul key={"ul_"+item.key.toString()} className='item-center px-10 pt-2'>
                                         {
-                                            item.data.map((lang, index) => (
-                                                <li key={index} className='flex flex-row items-center text-yellow-400 font-semibold'>
+                                            item.data.map((lang, key) => (
+                                                <li key={"li_"+key.toString()} className='flex flex-row items-center text-yellow-400 font-semibold'>
                                                     <GoCode className='mr-2' /> {lang}
                                                 </li>
                                             ))

@@ -88,6 +88,60 @@ const item9 = {
         transition: { duration: 1.5, delay: 11 }
     }
 }
+const item10 = {
+    hidden: {
+        opacity: 0,
+    },
+    show: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 12 }
+    }
+}
+const item11 = {
+    hidden: {
+        opacity: 0,
+    },
+    show: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 13 }
+    }
+}
+const item12 = {
+    hidden: {
+        opacity: 0,
+    },
+    show: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 14 }
+    }
+}
+const item13 = {
+    hidden: {
+        opacity: 0,
+    },
+    show: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 15 }
+    }
+}
+const item14 = {
+    hidden: {
+        opacity: 0,
+    },
+    show: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 16 }
+    }
+}
+const item15 = {
+    hidden: {
+        opacity: 0,
+    },
+    show: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 17 }
+    }
+}
 
 export const animation = [
     container,
@@ -99,5 +153,11 @@ export const animation = [
     item6,
     item7,
     item8,
-    item9
+    item9,
+    item10,
+    item11,
+    item12,
+    item13,
+    item14,
+    item15
 ]
