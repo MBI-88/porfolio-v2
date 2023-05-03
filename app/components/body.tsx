@@ -13,8 +13,8 @@ const Body = () => {
             </motion.h2>
             <article className="pt-5 pb-5 lg:ps-20 ps-0 md:ps-16">
                 <h3 className="font-medium text-justify">
-                    I'm a Telecommunications and Electronics engineer.
-                    I'm a fan of technologies and the internet. When I learned how to programme,
+                    I am a Telecommunications and Electronics engineer.
+                    I am a fan of technologies and the internet. When I learned how to programme,
                     I never stopped doing it. Of all the aspects that my career offers me, I chose programming.
                     I started with small applications using C++, since it was the first language I learned. Then,
                     I made small console applications to manage user registries and small databases.
