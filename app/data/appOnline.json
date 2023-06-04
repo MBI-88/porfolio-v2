@@ -1,6 +1,10 @@
 [
     {
         "name": "AI blog-news",
-        "url":"https://aiblog-news.netlify.app"
+        "url": "https://aiblog-news.netlify.app"
+    },
+    {
+        "name": "Fonoma test",
+        "url": "https://fonoma-nextjs-test.netlify.app/"
     }
 ]
