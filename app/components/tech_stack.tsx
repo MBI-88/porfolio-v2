@@ -4,7 +4,7 @@ import { FC } from 'react'
 import style from '../styles/Home.module.css'
 
 
-interface Props {
+type Props = {
     data: StackData[]
 }
 
