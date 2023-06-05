@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { FC } from "react";
 
-interface Props {
+type Props = {
     openModal: boolean
     closeModal: Function
     name: string

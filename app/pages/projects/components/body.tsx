@@ -4,7 +4,7 @@ import { GitRepos } from '../../../interfaces/repo_inteface'
 import Table from './table';
 import OnlineApp from './onlineapp';
 
-interface Props {
+type Props = {
     data: GitRepos[]
 }
 

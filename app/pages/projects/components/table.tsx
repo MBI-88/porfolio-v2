@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { GitRepos } from '../../../interfaces/repo_inteface'
 import ChartPie from './graph';
 
-interface Props {
+type Props = {
     data: GitRepos[]
 }
 
