@@ -26,5 +26,9 @@
     {
         "name":"Python Developer",
         "url":"/static/img/Python_Developer.webp"
+    },
+    {
+        "name":"AWS Architect Associate",
+        "url": "/static/img/AWS_Architect.webp"
     }
 ]
