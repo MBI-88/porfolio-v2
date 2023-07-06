@@ -13,7 +13,7 @@ const OnlineApp = () => {
                     animate={{ color: ['#40e612', '#7a19db9e', '#d31a1ab0', '#2551e2fe'], animationTimingFunction: 'ease' }}
                     transition={{ duration: 10, repeat: Infinity, delay: 1 }}
                 >
-                    Online Apps
+                    Company Projects
                 </motion.h2>
             </section>
             <motion.ul className='flex flex-col flex-wrap items-center' variants={animation[0]} initial="hidden" animate="show">
