@@ -1,10 +1,18 @@
 [
     {
-        "name": "AI blog-news",
-        "url": "https://face-detection-blog.onrender.com/"
-    },
-    {
         "name": "Fonoma test",
         "url": "https://fonoma-nextjs-test.netlify.app/"
+    },
+    {
+        "name":"Optrack-Ledefyl",
+        "url":"https://optrack-tesv.ledefyl.com.uy/#/"
+    },
+    {
+        "name":"Symba-Ledefyl",
+        "url":"https://symba.ledefyl.com.uy/#/"
+    },
+    {
+        "name":"FrameBanking-2Innovate",
+        "url":"https://2innovateit.com/es/frame-banking/"
     }
 ]
