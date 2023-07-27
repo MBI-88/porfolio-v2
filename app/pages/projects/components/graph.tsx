@@ -2,12 +2,12 @@
 
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from "react-chartjs-2";
-import { Language } from '@/app/interfaces/languge_interface';
+import { Language } from '../interfaces/languge_interface';
 import { FC, useEffect, useReducer, useState } from 'react';
 import { colors} from '@/app/utils/graph_colors'
 import { CustumeState } from '@/app/utils/custom_hook';
-import { ActionType } from '@/app/interfaces/reducer_interface';
-import { GetAPIrepo } from '@/app/services/graphchart_service';
+import { ActionType } from '../interfaces/reducer_interface';
+import { GetAPIrepo } from '../services/graphchart_service';
 import Loader from '@/app/common/loader';
 
 

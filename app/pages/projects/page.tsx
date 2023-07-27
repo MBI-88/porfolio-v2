@@ -1,4 +1,4 @@
-import { GetAPI } from "@/app/services/project_services"
+import { GetAPI } from "./services/project_services"
 import Header from "./components/header"
 import Body from './components/body'
 

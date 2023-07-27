@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { GitRepos } from '../../../interfaces/repo_inteface'
+import { GitRepos } from '../interfaces/repo_inteface'
 import ChartPie from './graph';
 
 type Props = {
