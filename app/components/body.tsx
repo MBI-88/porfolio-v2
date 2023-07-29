@@ -13,12 +13,12 @@ const Body = () => {
             </motion.h2>
             <article className="pt-5 pb-5 lg:ps-20 ps-0 md:ps-16">
                 <h3 className="font-medium">
-                    I'm a Telecommunications and Electronics engineer.
-                    I'm a fan of technologies and the internet.
-                    I've worked
+                    I am a Telecommunications and Electronics engineer.
+                    I am a fan of technologies and the internet.
+                    I have worked
                     with artificial intelligence and data science, in web development with frameworks like Django, Flask, FastApi and Fiber.
-                    I've been working with relational databases such as MySQL, PostgresSQL and non-relational databases such as MongoDB.
-                    I've been working with front-end frameworks like Angular, Vue and Nextjs.
+                    I have been working with relational databases such as MySQL, PostgresSQL and non-relational databases such as MongoDB.
+                    I have been working with front-end frameworks like Angular, Vue and Nextjs.
                     <br/><br/>
                     <q><b>My favorite tech stack is Go (Fiber) and Nexjs</b></q>
                 </h3>
