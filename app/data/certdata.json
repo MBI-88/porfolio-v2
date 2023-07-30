@@ -30,5 +30,9 @@
     {
         "name":"AWS Architect Associate",
         "url": "/static/img/AWS_Architect.webp"
+    },
+    {
+        "name":"MongoDB Course",
+        "url":"/static/img/MongoDB.webp"
     }
 ]
