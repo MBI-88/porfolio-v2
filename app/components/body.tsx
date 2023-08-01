@@ -20,7 +20,7 @@ const Body = () => {
                     I have been working with relational databases such as MySQL, PostgresSQL and non-relational databases such as MongoDB.
                     I have been working with front-end frameworks like Angular, Vue and Nextjs.
                     <br/><br/>
-                    <q><b>My favorite tech stack is Go (Fiber) and Nexjs</b></q>
+                    <q><b>My favorite tech stack is Go (Fiber) and Nextjs</b></q>
                 </h3>
                 
             </article>
