@@ -8,8 +8,7 @@
             "Golang",
             "Typescript",
             "Html",
-            "Css",
-            "Sass"
+            "Css"
         ]
     },
     {
@@ -24,6 +23,7 @@
             "Fiber",
             "Nextjs",
             "Angular",
+            "Vue 3",
             "Tensorflow"
         ]
     },
@@ -45,7 +45,9 @@
             "Windows",
             "OWASP",
             "VMware",
-            "AWS"
+            "AWS",
+            "Git",
+            "Jira"
         ]
     }
 ]
