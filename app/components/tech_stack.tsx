@@ -1,7 +1,7 @@
 import { GoCode } from 'react-icons/go'
 import { StackData } from '../interfaces/stack_interface'
 import { FC } from 'react'
-import style from '../styles/Home.module.css'
+import style from '../common/styles/Home.module.css'
 
 
 type Props = {

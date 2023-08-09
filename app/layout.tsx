@@ -1,9 +1,7 @@
-
-import { link } from 'fs'
-import Footer from './common/footer'
-import Navbar from './common/navbar'
-import './styles/globals.css'
-import { lora } from './fonts/lora'
+import Footer from './common/components/footer'
+import Navbar from './common/components/navbar'
+import './common/styles/globals.css'
+import { lora } from './common/fonts/lora'
 
 export const metadata = {
   title: 'MBI-Home',

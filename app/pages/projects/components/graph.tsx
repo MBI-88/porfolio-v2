@@ -4,11 +4,11 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from "react-chartjs-2";
 import { Language } from '../interfaces/languge_interface';
 import { FC, useEffect, useReducer, useState } from 'react';
-import { colors} from '@/app/utils/graph_colors'
-import { CustumeState } from '@/app/utils/custom_hook';
+import { colors} from '@/app/common/utils/graph_colors'
+import { CustumeState } from '@/app/common/utils/custom_hook';
 import { ActionType } from '../interfaces/reducer_interface';
 import { GetAPIrepo } from '../services/graphchart_service';
-import Loader from '@/app/common/loader';
+import Loader from '@/app/common/components/loader';
 
 
 const apiRepo = process.env.NEXT_PUBLIC_GITHUB_API_REPO

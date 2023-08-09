@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from 'framer-motion'
-import { animation } from '../../../utils/animation_pres'
-import appOnline from '../../../data/appOnline.json'
+import { animation } from '../../../common/utils/animation_pres'
+import appOnline from '../../../common/data/appOnline.json'
 
 const OnlineApp = () => {
     const app = appOnline.map(item => item)

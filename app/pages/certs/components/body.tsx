@@ -1,7 +1,7 @@
 "use client";
 
 import Modal from "./modal";
-import certdata from '../../../data/certdata.json'
+import certdata from '../../../common/data/certdata.json'
 import Image from "next/image";
 import { useState } from "react";
 
