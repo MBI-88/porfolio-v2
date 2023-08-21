@@ -3,11 +3,11 @@
         "name": "languajes",
         "key": 1,
         "data": [
-            "Javascript",
+            "Node",
             "Python",
             "Golang",
             "Typescript",
-            "Html",
+            "Html5",
             "Css"
         ]
     },
@@ -24,7 +24,7 @@
             "Nextjs",
             "Angular",
             "Vue 3",
-            "Tensorflow"
+            "Expressjs"
         ]
     },
     {
