@@ -34,5 +34,9 @@
     {
         "name":"MongoDB Course",
         "url":"/static/img/MongoDB.webp"
+    },
+    {
+        "name":"Working with Concurrency in Go",
+        "url":"/static/img/Concurrency-Go.webp"
     }
 ]
