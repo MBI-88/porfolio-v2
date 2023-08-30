@@ -14,5 +14,9 @@
     {
         "name":"FrameBanking-2Innovate",
         "url":"https://2innovateit.com/es/frame-banking/"
+    },
+    {
+        "name":"Edutin test Programing in Go",
+        "url":"https://edutin-go-server.onrender.com/"
     }
 ]
