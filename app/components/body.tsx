@@ -16,9 +16,9 @@ const Body = () => {
                     I am a Telecommunications and Electronics engineer.
                     I am a fan of technologies and the internet.
                     I have worked
-                    with artificial intelligence and data science, in web development with frameworks like Django, Flask, FastApi and Fiber.
+                    with artificial intelligence and data science, in web development, I have worked with frameworks like Django, Flask and Angular.
                     I have been working with relational databases such as MySQL, PostgresSQL and non-relational databases such as MongoDB.
-                    I have been working with front-end frameworks like Angular, Vue and Nextjs.
+                    I have been working with frameworks like FastApi, Fiber, Express and Nextjs.
                 </h3>
                 
             </article>
