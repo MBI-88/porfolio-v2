@@ -15,7 +15,7 @@
         "name": "frameworks",
         "key": 2,
         "data": [
-            "Dajgo",
+            "Django",
             "FastApi",
             "Flask",
             "Bootstrap",
