@@ -38,5 +38,9 @@
     {
         "name":"Working with Concurrency in Go",
         "url":"/static/img/Concurrency-Go.webp"
+    },
+    {
+        "name": "English certification",
+        "url": "/static/img/English_cert.webp"
     }
 ]
