@@ -60,7 +60,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <motion.a href="/static/doc/CV-EN.pdf"
+                            <motion.a href="/static/doc/CV-MBI.pdf"
                                 download type="button"
                             >
                                 <motion.h2
