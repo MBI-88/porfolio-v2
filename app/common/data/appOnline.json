@@ -1,7 +1,7 @@
 [
     {
         "name": "Exchange Currencies",
-        "url": "https://fonoma-nextjs-test.netlify.app/"
+        "url": "https://exachange.netlify.app"
     },
     {
         "name":"Optrack-Ledefyl",
@@ -17,6 +17,6 @@
     },
     {
         "name":"Edutin test Programing in Go",
-        "url":"https://edutin-go-server.onrender.com/"
+        "url":"https://edugo-latest.onrender.com"
     }
 ]
